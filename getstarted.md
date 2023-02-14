@@ -30,11 +30,16 @@ by clicking the Fork button on the top right corner in GitHub.
 
 </div>
 
-</div>
+<div class="gs-section-02" markdown="1">
 
 ### 2. Rename the repository to `yourusername.github.io`
 
 This will create a GitHub User page ready with the **Beautiful Jekyll** template that will be available at http://yourusername.github.io (sometimes it takes a few minutes).
+
+</div>
+
+
+<div class="gs-section-03" markdown="1">
 
 ### 3. Customize settings
 
@@ -42,6 +47,7 @@ Edit the `_config.yml` file to change all the settings to reflect your site.  Th
 
 You can now visit your shiny new website, which will be seeded with several sample blog posts and a couple other pages.
 
+<div class="gs-section-03" markdown="1">
 ---
 
 See how easy that is? I wasn't lying - it can be done in two minutes.
@@ -54,6 +60,20 @@ See how easy that is? I wasn't lying - it can be done in two minutes.
      color: red }
 
 .gs-section-01 p {
+     font-size: 30px;
+}
+
+.gs-section-02 h3 { 
+     color: red }
+
+.gs-section-02 p {
+     font-size: 30px;
+}
+
+.gs-section-03 h3 { 
+     color: red }
+
+.gs-section-03 p {
      font-size: 30px;
 }
 </style>
